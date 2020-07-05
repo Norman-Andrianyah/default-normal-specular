@@ -114,11 +114,9 @@ body {
     padding: 6px;
     text-align: left;
 }
-.download-btn > a {
-	text-align: center;
-}
 .download-btn > a > button {
     background-color: blue;
+	text-align: center;
     padding: 8px;
     border: none;
     color: white;
