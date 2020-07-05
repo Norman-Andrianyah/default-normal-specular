@@ -114,6 +114,9 @@ body {
     padding: 6px;
     text-align: left;
 }
+.download-btn > a {
+	text-align: center;
+}
 .download-btn > a > button {
     background-color: blue;
     padding: 8px;
@@ -352,7 +355,7 @@ TABLE LAYOUT START
         font-size: 7px;
     }
     .download-btn > a > button > b {
-        font-size: 3px;
+        font-size: 4px;
     }
     .download-btn > a > button {
         background-color: blue;
