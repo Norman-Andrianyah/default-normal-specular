@@ -334,7 +334,7 @@ IMAGE CHANGELOGS END
 /*
 TABLE LAYOUT START
 */
-@media (min-width: 100px) and (max-width: 467px) {
+@media (min-width: 100px) and (max-width: 480px) {
     .container {
         margin-left: 10px;
         margin-right: 10px;
