@@ -353,7 +353,7 @@ TABLE LAYOUT START
         font-size: 7px;
     }
     .download-btn > a > button > b {
-        font-size: xx-small;
+        font-size: normal;
     }
     .download-btn > a > button {
         background-color: blue;
