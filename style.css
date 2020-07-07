@@ -424,6 +424,7 @@ TABLE LAYOUT END
 }
 .screenshots {
     margin: 8px;
+    text-align: center;
 }
 .screenshots > img {
     width: 120px;
