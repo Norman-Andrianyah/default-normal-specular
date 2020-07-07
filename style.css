@@ -416,3 +416,12 @@ TABLE LAYOUT START
 /*
 TABLE LAYOUT END
 */
+.ss-container {
+    margin: 18px;
+}
+.screenshots {
+    margin: 8px;
+}
+.screenshots > img {
+    width: 120px;
+}
