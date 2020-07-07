@@ -420,10 +420,10 @@ TABLE LAYOUT START
 TABLE LAYOUT END
 */
 .ss-container {
-    margin: 18px;
+    text-align: center;
 }
 .screenshots {
-    margin: 8px;
+    margin: 20px;
     text-align: center;
 }
 .screenshots > img {
