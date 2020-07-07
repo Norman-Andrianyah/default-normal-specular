@@ -241,6 +241,9 @@ body {
 }
 /* Mobile Device Responsive START */
 @media (min-width: 320px) and (max-width: 460px) {
+    .navbar > ul > li > a {
+        font-size: x-small;
+    }
     .img-bg {
         background: url(images/background.png) no-repeat;
         background-size: cover;
