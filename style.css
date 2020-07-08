@@ -457,5 +457,6 @@ TABLE LAYOUT END
 }
 .new-container-body {
     background-color: white;
+    margin-top: -8px;
     margin: -8px;
 }
