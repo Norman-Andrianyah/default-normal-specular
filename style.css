@@ -1,5 +1,12 @@
 body {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(61, 61, 61);
+}
+.container-body {
+    background-color: rgb(194, 194, 194);
+    margin: -8px;
+}
+.container-body-margin {
+    margin: 8px;
 }
 .navbar {
     background-color: black;
@@ -39,7 +46,7 @@ body {
     background-size: cover;
     margin: -8px;
     margin-top: 7px;
-    padding: 200px;
+    padding: 280px;
 }
 .img-bg > h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,9 +56,7 @@ body {
     color: white;
 }
 .container {
-    margin-top: -200px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-top: -180px;
 }
 .container-1 {
     padding-top: 20px;
@@ -162,17 +167,20 @@ body {
 }
 .container-end {
     background-color: rgb(61, 61, 61);
-    padding: 30px;
-    padding-top: 4cm;
+    padding: 10px;
     margin: -8px;
-    height: 4cm;
 }
 .sosmed {
     text-align: center;
 }
+.sosmed > a {
+    text-decoration: none;
+}
 .sosmed > a > img {
     height: 40px;
-    margin-left: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 4px 1px #000000;
 }
 .copyright {
     color: white;
@@ -182,6 +190,8 @@ body {
 .end {
     text-align: center;
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .background-0 {
     background-image: url(images/dirt.png);
@@ -303,6 +313,18 @@ body {
     .copyright, .end {
         font-size: xx-small;
     }
+    .navbar {
+        padding: 2px;
+    }
+    .navbar > img {
+        margin-top: 8px;
+        margin-left: 8px;
+        width: 35px;
+        height: 35px;
+    }
+    .navbar > ul {
+        margin-right: 15px;
+    }
 }
 /* Mobile Device Responsive END */
 /*
@@ -415,6 +437,10 @@ TABLE LAYOUT START
         margin-left: 60px;
         margin-right: 60px;
     }
+    .container-1 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
 }
 /*
 TABLE LAYOUT END
@@ -428,4 +454,8 @@ TABLE LAYOUT END
 }
 .screenshots > img {
     width: 120px;
+}
+.new-container-body {
+    background-color: white;
+    margin: -8px;
 }
