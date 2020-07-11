@@ -460,3 +460,45 @@ TABLE LAYOUT END
     margin-top: -15px;
     margin: -8px;
 }
+.question-container {
+    background-color: rgb(211, 211, 211);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.question-list ul li {
+    margin-left: -40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(165, 165, 165);
+    padding: 10px;
+    list-style: none;
+}
+.question-list ul li p {
+    display: none;
+}
+.question-list ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.question-list ul li:focus-within p {
+    display: block;
+}
+.question-list ul li:hover {
+    background-color: lime;
+}
+.question-list ul li:focus-within {
+    background-color: rgb(207, 207, 207);
+}
+/* question layout */
+@media (min-width: 120px) and (max-width: 420px) {
+    .question-list ul li:hover p {
+        display: block;
+    }
+    .question-list ul li a {
+        font-size: x-small;
+    }
+    .question-list ul li p {
+        font-size: xx-small;
+    }
+}
