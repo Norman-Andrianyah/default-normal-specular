@@ -137,6 +137,7 @@ body {
 }
 .list {
     margin-left: 40px;
+    margin-right: 40px;
 }
 .list > ul {
     list-style: decimal;
@@ -226,7 +227,7 @@ body {
     width: 300px;
     margin-left: 30px;
     margin-right: 50px;
-    padding-bottom: 10cm;
+    padding-bottom: 14cm;
     box-shadow: none;
 }
 .container-2 h3 {
@@ -501,4 +502,17 @@ TABLE LAYOUT END
     .question-list ul li p {
         font-size: xx-small;
     }
+}
+.contact-text {
+    margin: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact-text a {
+    color: blue;
+    font-weight: bold;
+}
+.contact-text a:hover {
+    color: red;
+    text-decoration: none;
 }
