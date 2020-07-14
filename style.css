@@ -98,6 +98,9 @@ body {
 .general-download-btn > a > button:active {
     background: linear-gradient(180deg, green, rgb(34, 255, 34));
 }
+.header-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .header-0, .header-title {
     text-align: center;
 }
